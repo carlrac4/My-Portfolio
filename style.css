@@ -7,8 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Libre Baskerville', serif; */
-    scroll-behavior: smooth !important;
+    /* font-family: 'Libre Baskerville', serif; */ 
 }
 
 html {
@@ -17,6 +16,7 @@ html {
 
 body {
     background: black;
+    scroll-behavior: smooth;
 }
 /*TITLE*/
 
@@ -503,7 +503,7 @@ font-weight:bold;
     padding: 2rem;
     color: #fff;
     cursor: pointer;
-    background-color:#cedce6;
+    background-color:#d3d3d3;
     border-radius: 1rem;
 }
 
@@ -637,6 +637,14 @@ font-weight:bold;
     letter-spacing: 1px;
 }
 
+.note {
+    font-style: italic;
+}
+
+.note-whole {
+    font-size: smaller;
+}
+
 .proj-code-btn:hover {
     background: black;
     color: white;
@@ -727,15 +735,18 @@ font-weight:bold;
 }
 
 .project-label {
-    font-size: 2rem;
+    font-size: 2.5rem;
     /* font-family:'Times New Roman', Times, serif; */
     margin-bottom: 1rem;
+    text-align: center;
 }
+
 
 .project-subtitle {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight:400;
+    text-align: center;
 }
 
 .project-description {
@@ -743,6 +754,7 @@ font-weight:bold;
     margin-bottom: 3rem;
     font-weight: 100%;
     font-size: 15px;
+    text-align: justify;
 }
 
 .link_btn {
