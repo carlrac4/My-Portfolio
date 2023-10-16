@@ -385,7 +385,7 @@ font-weight:bold;
 }
 
 .hamburger {
-    display: flex;
+    display: none;
     flex-direction: column; 
     cursor: pointer;
     align-items: center; 
