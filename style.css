@@ -12,11 +12,13 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     background: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /*TITLE*/
 
@@ -309,6 +311,34 @@ font-weight:bold;
     position: relative;
 }
 
+@media (max-width: 375px) {
+    .name {
+        font-size: 30px;
+    }
+    .home-content h3 {
+        display: none;
+    }
+    .home-btn {
+        height: 30px;
+        margin-top: -10px;
+    }
+    .home-icons {
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: -80px;
+        margin-top: -15px;
+    }
+    .home-img {
+    margin-right: -100px;
+    margin-left: -60px;
+    width: 500px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .home {
         display: flex;
@@ -400,6 +430,13 @@ font-weight:bold;
     background-color: white;
 }
 
+
+@media (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+}
+
 @media (max-width:768px) {
     .hamburger {
         display: block;
@@ -418,10 +455,10 @@ font-weight:bold;
         position: fixed;
         left: -100%;
         top: 70px;
-        gap: 0;
+        gap: 20px;
         flex-direction: column;
         background-color: #424242;
-        width: 100%;
+        width: 50%;
         text-align: center;
         transition: 0.3s;
     }
@@ -430,7 +467,6 @@ font-weight:bold;
     }
     .nav-menu.active {
         left: 0;
-
     }
 }
 
@@ -964,6 +1000,31 @@ font-weight:bold;
     font-size: 20px;
 }
 
+@media only screen and (max-width:375px) {
+    #projects .link_btn {
+        flex-direction: column;
+    }
+    .link_btn {
+        width: 20px;
+        text-align: center;
+        font-size: 10px; 
+        margin-left: 10px;
+    }
+    .link_btn-1 {
+        margin-left: 50px; /* Adjust the margin as needed */
+        font-size: 15px; /* Adjust the font size as needed */
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .left {
+        width: -100px;
+        margin-right: 100px;
+    }
+}
+
+
 @media (max-width:768px) {
 
     #projects .item {
@@ -1069,6 +1130,13 @@ transform: translateX(-50%);
         width: calc(100%/2);
     }
 }
+
+@media (max-width: 375px){
+    .gallery .certs {
+        width: calc(100%/1);
+    }
+}
+
 
 @media (max-width: 600px){
     .gallery .certs {
