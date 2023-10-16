@@ -965,6 +965,7 @@ font-weight:bold;
 }
 
 @media (max-width:768px) {
+
     #projects .item {
         flex-direction: column;
     }
@@ -1072,8 +1073,15 @@ transform: translateX(-50%);
 @media (max-width: 600px){
     .gallery .certs {
         padding: 4px;
-        width: 100%;
+        /* width: 100%; */
     }
+}
+
+@media (max-width:768px) { 
+    .gallery {
+        width: 80%;
+    }
+
 }
 
 /* footer section */
