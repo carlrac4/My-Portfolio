@@ -1025,6 +1025,22 @@ font-weight:bold;
 }
 
 
+@media (max-width: 360px) {
+    .left {
+        width: -100px;
+        margin-right: 100px;
+    }
+    .link_btn-1{
+        font-size: 10px;
+    }
+    .link_btn {
+        margin-right: 5px;
+        margin-left: -5px;
+        font-size: 10px;
+    }
+}
+
+
 @media (max-width:768px) {
 
     #projects .item {
