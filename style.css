@@ -1210,7 +1210,7 @@ transform: translateX(-50%);
 
 @media (max-width: 600px){
     .gallery .certs {
-        width: calc(100%/1);
+        width: calc(100%/2);
     }
 }
 
