@@ -1030,6 +1030,23 @@ font-weight:bold;
     font-size: 20px;
 }
 
+@media only screen and (max-width:600px) {
+    #projects .link_btn {
+        flex-direction: column;
+    }
+    .link_btn {
+        width: 20px;
+        text-align: center;
+        font-size: 10px; 
+        margin-left: 10px;
+    }
+    .link_btn-1 {
+        margin-left: 50px; 
+        font-size: 15px; 
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width:384px) {
     #projects .link_btn {
         flex-direction: column;
