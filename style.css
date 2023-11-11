@@ -313,6 +313,34 @@ font-weight:bold;
     position: relative;
 }
 
+@media (max-width: 600px) {
+    .name {
+        font-size: 30px;
+    }
+    .home-content h3 {
+        display: none;
+    }
+    .home-btn {
+        height: 30px;
+        margin-top: -10px;
+    }
+    .home-icons {
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: -80px;
+        margin-top: -15px;
+    }
+    .home-img {
+    margin-right: -100px;
+    margin-left: -60px;
+    width: 500px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
 @media (max-width: 384px) {
     .name {
         font-size: 30px;
@@ -413,6 +441,81 @@ font-weight:bold;
         margin-right: 2rem;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-img {
+        order: -1;
+    }
+
+    .home-content {
+        max-width: 100%;
+        margin-top: 5rem;
+    }
+
+    .home-btn {
+        padding: 0;
+    }
+    .home-img img {
+        margin-left: 5rem;
+        width: 55%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .home-btn,
+    .home-content {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        margin-top: 1.5rem;
+        font-size: 20px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin-right: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .home-content h1 {
+        font-size: 24px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+
+    .home-btn button {
+        width: 120px;
+        font-size:   16px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+    }
+
+    .home-icons {
+        width: 100%;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
